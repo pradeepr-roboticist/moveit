@@ -23,6 +23,9 @@
   <depend>rosconsole</depend>
   <depend>roscpp</depend>
   <depend>tf2_ros</depend>
+  <depend>moveit_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>moveit_visual_tools</depend>
   <depend version_gte="1.11.2">pluginlib</depend>
 
   <test_depend>moveit_resources</test_depend>

@@ -18,6 +18,9 @@ find_package(catkin REQUIRED COMPONENTS
   rosconsole
   pluginlib
   tf2_ros
+  moveit_msgs #################################################
+  visualization_msgs #################################################
+  moveit_visual_tools #################################################
   dynamic_reconfigure
   )
 
@@ -34,6 +37,9 @@ catkin_package(
     dynamic_reconfigure
     moveit_core
     roscpp
+    moveit_msgs #################################################
+    visualization_msgs #################################################
+    moveit_visual_tools #################################################
   DEPENDS
     OMPL
 )
